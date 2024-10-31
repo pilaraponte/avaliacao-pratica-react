@@ -1,0 +1,32 @@
+
+body{
+    background-color:aliceblue;
+}
+
+
+  
+  .pagina-lista-produtos_item {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    background-color: white ;
+    
+  }
+  
+  .pagina-lista-produtos_item> span {
+    flex: 1;
+  }
+  
+  .pagina-lista-produtos_mensagem-vazia {
+    text-align: center;
+    margin-top: 48px;
+  }
+
+  li {
+    list-style-type: none;
+  }
+
+.remover{
+    position: absolute;
+    left: 90%;
+}
